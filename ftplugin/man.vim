@@ -24,7 +24,7 @@ setlocal nolist
 setlocal tabstop=8
 
 " scratch buffer options
-setlocal buftype=nofile
+" setlocal buftype=nofile
 setlocal bufhidden=hide
 setlocal nobuflisted
 setlocal noswapfile
