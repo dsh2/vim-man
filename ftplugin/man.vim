@@ -52,7 +52,8 @@ xnoremap <silent> <buffer> [[ :<C-U>call man#section#move('b', 'v', v:count1)<CR
 xnoremap <silent> <buffer> ]] :<C-U>call man#section#move('' , 'v', v:count1)<CR>
 
 nnoremap <silent> <buffer> q :q<CR>
-nnoremap <buffer> g/ /^\s*\zs
+nnoremap <buffer> g/ gg/^\s*--\=\zs
+nnoremap <buffer> <leader>/ gg/^\s*\%<12v\zs
 
 " }}}
 
